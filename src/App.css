@@ -1,0 +1,28 @@
+.mainPage {
+	text-align: center;
+	min-height: 100vh;
+	background-color: #36454f;
+	color: white;
+}
+.header {
+	font-weight: 400;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin: 10px;
+}
+.heroSection {
+	min-height: 100vh;
+}
+.heroImg,
+.heroText {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: larger;
+}
+.heroImg {
+	background-color: black;
+}
+.heroText {
+	background-color: chocolate;
+}
