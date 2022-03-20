@@ -10,18 +10,17 @@
 	text-transform: uppercase;
 	margin: 10px;
 }
-.heroSection {
-	min-height: 100vh;
-}
+
 .heroImg,
 .heroText {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	font-size: larger;
+	max-height: 100vh;
 }
 .heroImg {
-	background-color: black;
+	background-color: cornflowerblue;
 }
 .heroText {
 	background-color: chocolate;
