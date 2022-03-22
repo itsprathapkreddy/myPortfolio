@@ -1,27 +1,21 @@
+* {
+	box-sizing: border-box;
+}
 .mainPage {
-	text-align: center;
 	min-height: 100vh;
-	background-color: #36454f;
+	background-color: var(--dark-navy);
 	color: white;
+	/* width: 100vw; */
 }
-.header {
-	font-weight: 400;
-	font-size: 30px;
-	text-transform: uppercase;
-	margin: 10px;
+.logoHeader {
+	min-height: 50px;
+	text-align: center;
 }
-
-.heroImg,
-.heroText {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: larger;
-	max-height: 100vh;
+.heroSection {
+	padding-top: 20px;
+	min-height: 100vh;
 }
-.heroImg {
-	background-color: cornflowerblue;
-}
-.heroText {
-	background-color: chocolate;
+.heroName {
+	font-size: 2em;
+	font-weight: 800;
 }
