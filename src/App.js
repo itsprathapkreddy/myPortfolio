@@ -20,7 +20,7 @@ function App() {
 							/>
 						</svg>
 					</Grid>
-					<Grid className='heroSection'>
+					<Grid className='heroSection' style={{ textAlign: 'center' }}>
 						<Grid style={{ color: 'var(--green)' }}>Hi, This is </Grid>
 						<Grid className='heroName'>Prathap Reddy K</Grid>
 					</Grid>
