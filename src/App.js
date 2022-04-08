@@ -1,6 +1,6 @@
 import './App.css';
 import { Grid } from '@mui/material';
-// import { motion } from 'framer-motion';
+import Loader from './Components/Loader';
 
 function App() {
 	return (
@@ -20,11 +20,13 @@ function App() {
 							/>
 						</svg>
 					</Grid>
+
 					<Grid className='heroSection' style={{ textAlign: 'center' }}>
-						<Grid style={{ color: 'var(--green)' }}>Hi, This is </Grid>
+						<Grid>Hi, This is </Grid>
 						<Grid className='heroName'>Prathap Reddy K</Grid>
 					</Grid>
 				</Grid>
+				<Loader />
 			</Grid>
 		</Grid>
 	);
