@@ -1,21 +1,3 @@
 * {
 	box-sizing: border-box;
 }
-.mainPage {
-	min-height: 100vh;
-	background-color: var(--dark-navy);
-	color: white;
-	/* width: 100vw; */
-}
-.logoHeader {
-	min-height: 50px;
-	text-align: center;
-}
-.heroSection {
-	padding-top: 20px;
-	min-height: 100vh;
-}
-.heroName {
-	font-size: 2em;
-	font-weight: 800;
-}
