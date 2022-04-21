@@ -2,19 +2,19 @@
 	box-sizing: border-box;
 }
 .appContainer{
-	background-color: var(--dark-navy);
+	background-color: var(--light-navy);
 	padding: 0px !important;
 }
 .headerContainer{
-	background-color: var(--dark-navy);
+	background-color: var(--light-navy);
 	padding: 5px;
 	text-align: center;  
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
 	z-index: 100;
 	width:100%
 }
 .heroSec{
-	min-height: 100vh;
+	padding: 20px;
 	color: white;
 }
 .heroSecDes{
@@ -30,9 +30,112 @@
 	margin-top: 20px;
 }
 .downloadResume:hover{
-	background-color:var(--navy);
+	background-color:var(--light-navy);
 	cursor: pointer;
 }
 .aboutSec{
-	min-height: 100vh;
+
+	color:white;
+	font-size: 20px;
+	text-align: justify;
 }
+.abtList{
+	columns: 2;
+	font-size: 18px;
+}
+abtList li{
+	list-style-type:circle;
+}
+.expContainer{
+	color:white;
+	padding: 50px;
+}
+.expHeader{
+	text-align: center;
+	padding: 10px 0;
+	padding-left:15%;
+	padding-right: 15%;
+	font-size: 18px;
+}
+
+.expData{
+	padding-left:15%;
+	padding: 10px 0;
+	padding-right: 15%;
+	padding-left: 15%;
+	font-size: 18px;
+	text-align: justify;
+}
+.expShow,.expHide{
+	padding: 10px 0;
+	cursor: pointer;
+	background-color: var(--navy);
+	font-size: 18px;
+}
+.expShow{
+	color:var(--green);
+	border-bottom:2px solid var(--green);
+}
+.expHide{
+	opacity: 0.8;
+
+}
+.hidden{
+	display: none;
+}
+
+.footerCont{
+	width: 100%;
+	padding: 10px;
+	color:white;
+	text-align: center;
+	background-color: var(--navy);
+}
+.projCont{
+	color:white
+}
+.projContHead{
+	color:white;
+	text-align: center;
+}
+.indProj{
+	
+	margin: 20px 5px!important;
+	background-color: var(--navy);
+	border-radius: 10px;
+}
+.ProjectImage{
+	width: 100%;
+
+}
+.ProjectImage:hover{
+	
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+
+}
+.indProjDes{
+	background-color: var(--navy);
+	text-align: justify;
+}
+.projBtn{
+ width:100%;
+ padding: 30px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+	.heroSecDes{
+		width:90%
+	}
+	.aboutEmail{
+		overflow: scroll;
+	}
+	.expHeader{
+		padding: 10px 5px;
+	}
+	.expData{
+		padding:5px
+	}
+	.medQuRevCol{
+		flex-direction: column-reverse;
+	}
+  }
