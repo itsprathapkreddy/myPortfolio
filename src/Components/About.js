@@ -4,10 +4,11 @@ const About = () => {
 	return (
 		<Container className='aboutSec'>
 			<Row>
-				<h1>
-					<center>About Me</center>
-				</h1>
+				<div class='separator'>
+					<h1>About Me</h1>
+				</div>
 			</Row>
+
 			<br />
 			<Row>
 				<Col sm={6}>

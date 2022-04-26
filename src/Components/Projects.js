@@ -8,7 +8,10 @@ import expmngr from '../assets/expmngr.png';
 const Projects = () => {
 	return (
 		<Container className='projCont'>
-			<h2 className='projContHead'>Some Projects that I have built</h2>
+			<div class='separator'>
+				<h2 className='projContHead'>Projects</h2>
+			</div>
+
 			<Row className='indProj'>
 				<Col sm={6} style={{ padding: '0px' }}>
 					<img src={Demo} className='ProjectImage' />

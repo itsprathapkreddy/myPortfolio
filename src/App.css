@@ -148,3 +148,26 @@ abtList li{
 		flex-direction: column-reverse;
 	}
   }
+
+
+	/* For HR line to Sec header */
+	.separator {
+		display: flex;
+		align-items: center;
+		text-align: center;
+	}
+	
+	.separator::before,
+	.separator::after {
+		content: '';
+		flex: 1;
+		border-bottom: 1px solid var(--green);
+	}
+	
+	.separator:not(:empty)::before {
+		margin-right: 1em;
+	}
+	
+	.separator:not(:empty)::after {
+		margin-left: 1em;
+	}

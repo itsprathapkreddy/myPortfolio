@@ -6,9 +6,9 @@ const Experience = () => {
 	return (
 		<Container className='expContainer'>
 			<Row>
-				<h2>
-					<center>Companies I have worked with</center>
-				</h2>
+				<div class='separator'>
+					<h2>Work Places</h2>
+				</div>
 			</Row>
 			<Row className='expHeader'>
 				<Col

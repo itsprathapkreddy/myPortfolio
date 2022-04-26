@@ -12,14 +12,14 @@ import Loader from './Components/Loader';
 import { useEffect, useState } from 'react';
 function App() {
 	const [loadTimer, setLoadTimer] = useState(true);
-	// useEffect(() => {
-	// 	setTimeout(() => {
-	// 		setLoadTimer(false);
-	// 	}, 3000);
-	// }, []);
+	useEffect(() => {
+		setTimeout(() => {
+			setLoadTimer(false);
+		}, 3000);
+	}, []);
 	return (
 		<Container fluid className='appContainer'>
-			{!loadTimer ? (
+			{loadTimer ? (
 				<Loader />
 			) : (
 				<>
