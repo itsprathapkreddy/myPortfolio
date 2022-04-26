@@ -35,7 +35,7 @@ const About = () => {
 						<li>WordPress</li>
 						<li>React Native</li>
 						<li>Node JS</li>
-						<li>FireStore</li>
+						<li>Java</li>
 					</div>
 				</Col>
 			</Row>

@@ -27,3 +27,18 @@
 		system-ui, sans-serif;
 	--font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
 }
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+body::-webkit-scrollbar-track {
+
+		background-color: var(--light-navy);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: whitesmoke;
+	opacity: 0.5;
+	border-radius: 10px;
+}
