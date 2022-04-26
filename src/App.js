@@ -8,16 +8,30 @@ import Contact from './Components/Contact';
 import Experience from './Components/Experience';
 import Projects from './Components/Projects';
 import Footer from './Components/Footer';
+import Loader from './Components/Loader';
+import { useEffect, useState } from 'react';
 function App() {
+	const [loadTimer, setLoadTimer] = useState(true);
+	useEffect(() => {
+		setTimeout(() => {
+			setLoadTimer(false);
+		}, 3000);
+	}, []);
 	return (
 		<Container fluid className='appContainer'>
-			<Header />
-			<HeroSec />
-			<About />
-			<Experience />
-			<Projects />
-			<Contact />
-			<Footer />
+			{loadTimer ? (
+				<Loader />
+			) : (
+				<>
+					<Header />
+					<HeroSec />
+					<About />
+					<Experience />
+					<Projects />
+					<Contact />
+					<Footer />
+				</>
+			)}
 		</Container>
 	);
 }
