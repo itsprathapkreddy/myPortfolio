@@ -5,11 +5,20 @@ const HeroSec = () => {
 		<Container className='heroSec d-flex align-items-center '>
 			<Row>
 				<Col>
-					<h2 style={{ color: 'var(--green)' }}>Hey there, this is</h2>
-					<h1>Prathap Reddy</h1>
-					<h2 style={{ opacity: '0.8', marginTop: '20px' }}>
+					<div style={{ color: 'var(--green)', fontSize: '20px' }}>
+						Hey there, this is
+					</div>
+					<div
+						style={{
+							fontSize: '46px',
+							fontWeight: '600',
+							letterSpacing: '0.05em',
+						}}>
+						Prathap Reddy
+					</div>
+					<div style={{ opacity: '0.8', marginTop: '20px', fontSize: '24px' }}>
 						I build interactive websites that run across platforms & devices
-					</h2>
+					</div>
 					{/* <h5 className='heroSecDes'>
 						Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text
@@ -19,7 +28,11 @@ const HeroSec = () => {
 					<a
 						href='https://drive.google.com/uc?export=download&id=1DIrKHX621neidNSzhdfSbAu0LIu1UThr'
 						target='_blank'
-						style={{ color: 'inherit', textDecoration: 'none' }}
+						style={{
+							color: 'inherit',
+							textDecoration: 'none',
+							fontSize: '18px',
+						}}
 						className='downloadResume'>
 						Download RESUME
 					</a>
