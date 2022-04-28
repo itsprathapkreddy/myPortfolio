@@ -4,7 +4,7 @@ const Contact = () => {
 	return (
 		<Container className='contactCont'>
 			<div class='separator'>
-				<h1>Get In Touch</h1>
+				<h2>Get In Touch</h2>
 			</div>
 			<div style={{ padding: '30px' }}>
 				<h4>Leave an email, I will get back to you at the earliest.</h4>
