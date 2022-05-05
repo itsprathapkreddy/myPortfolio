@@ -29,10 +29,10 @@
 }
 
 body::-webkit-scrollbar {
-    width: 10px;
+   display: none;
 }
  
-body::-webkit-scrollbar-track {
+/* body::-webkit-scrollbar-track {
 
 		background-color: var(--light-navy);
 }
@@ -41,4 +41,4 @@ body::-webkit-scrollbar-thumb {
   background-color: whitesmoke;
 	opacity: 0.5;
 	border-radius: 10px;
-}
+} */

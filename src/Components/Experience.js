@@ -4,28 +4,28 @@ import '../App.css';
 const Experience = () => {
 	const [company, setCompany] = useState('TCS');
 	return (
-		<Container className='expContainer'>
+		<Container className='expContainer scrollItem'>
 			<Row>
-				<div class='separator'>
+				<div className='separator'>
 					<h2>Work Places</h2>
 				</div>
 			</Row>
 			<Row className='expHeader'>
 				<Col
-					className={company == 'TCS' ? 'expShow' : 'expHide'}
+					className={company === 'TCS' ? 'expShow' : 'expHide'}
 					xs={6}
 					onClick={() => setCompany('TCS')}>
 					TCS
 				</Col>
 				<Col
-					className={company == 'MBP' ? 'expShow' : 'expHide'}
+					className={company === 'MBP' ? 'expShow' : 'expHide'}
 					xs={6}
 					onClick={() => setCompany('MBP')}>
 					MBP Solutions
 				</Col>
 			</Row>
 			<Row className='expData'>
-				<div className={company !== 'TCS' && 'hidden'}>
+				<div className={company !== 'TCS' ? 'hidden' : ''}>
 					<h4>
 						Front End Developer
 						<span style={{ color: 'var(--green)' }}>
@@ -54,7 +54,7 @@ const Experience = () => {
 						</ul>
 					</div>
 				</div>
-				<div className={company !== 'MBP' && 'hidden'}>
+				<div className={company !== 'MBP' ? 'hidden' : ''}>
 					<h4>
 						WordPress administrator
 						<span style={{ color: 'var(--green)' }}> @MBP Solutions</span>

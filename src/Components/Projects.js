@@ -7,8 +7,8 @@ import typeTestImg from '../assets/typetest.png';
 import expmngr from '../assets/expmngr.png';
 const Projects = () => {
 	return (
-		<Container className='projCont'>
-			<div class='separator'>
+		<Container className='projCont scrollItem'>
+			<div className='separator'>
 				<h2 className='projContHead'>Projects</h2>
 			</div>
 

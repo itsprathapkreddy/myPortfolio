@@ -14,13 +14,14 @@
 	width:100%;
 }
 .heroSec{
+	background-color: #133E57;
 	padding: 20px;
 	color: white;
-	min-height: 60vh;
+	min-height: 100vh;
 	display: flex;
 	justify-content:space-between;
 	flex-wrap: wrap;
-    gap: 16px;
+
 }
 .heroSecDes{
 	width:50%;
@@ -28,18 +29,19 @@
 }
 .downloadResume{
 	display: inline-block;
-	color:var(--green);
-	border:1px solid var(--green);
+	color:white;
+	border:1px solid var(--dark-navy);
+	background-color:var(--light-navy);
 	border-radius: 10px;
 	padding: 15px 25px;
 	margin-top: 20px;
 }
 .downloadResume:hover{
-	background-color:var(--light-navy);
+	color:var(--green);
 	cursor: pointer;
 }
 .aboutSec{
-
+	background-color: #334159;
 	color:white;
 	font-size: 20px;
 	text-align: justify;
@@ -171,3 +173,17 @@ abtList li{
 	.separator:not(:empty)::after {
 		margin-left: 1em;
 	}
+
+
+	.scrollContainer{
+		height: 100vh;
+		overflow-y: scroll;
+		scroll-snap-type: y proximity;
+	}
+	.scrollItem{
+		scroll-snap-align: start;
+	}
+	.scrollContainer::-webkit-scrollbar {
+		display: none;
+ }
+	

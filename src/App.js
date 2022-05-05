@@ -22,15 +22,16 @@ function App() {
 			{loadTimer ? (
 				<Loader />
 			) : (
-				<>
+				<div className='scrollContainer'>
 					<Header />
 					<HeroSec />
 					<About />
 					<Experience />
 					<Projects />
+
 					<Contact />
 					<Footer />
-				</>
+				</div>
 			)}
 		</Container>
 	);
