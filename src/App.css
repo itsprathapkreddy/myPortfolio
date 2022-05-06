@@ -14,7 +14,14 @@
 	width:100%;
 }
 .heroSec{
-	background-color: #133E57;
+	/* background-color: #133E57; */
+	background-image:url('./assets/lapBgHero.svg');
+	height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 	padding: 20px;
 	color: white;
 	min-height: 100vh;
@@ -130,6 +137,9 @@ abtList li{
 }
 
 @media only screen and (max-width: 600px) {
+	.heroSec{
+		/* background-color: #133E57; */
+		background-image:url('./assets/herobgMobile.svg');}
 	.heroSecDes{
 		width:90%
 	}

@@ -18,8 +18,7 @@ const HeroSec = () => {
 							}}>
 							Prathap Reddy
 						</div>
-						<div
-							style={{ opacity: '0.8', marginTop: '20px', fontSize: '24px' }}>
+						<div style={{ marginTop: '20px', fontSize: '24px' }}>
 							I build interactive websites that run across platforms & devices
 						</div>
 
