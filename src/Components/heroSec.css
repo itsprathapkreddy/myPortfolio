@@ -1,0 +1,67 @@
+.heroSec{
+	background-image:url('../assets/gradient.svg');
+	height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	color: white;
+	min-height: 100vh;
+	display: flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+}
+.heroSecContent{
+  min-height:50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.introText{
+  color:var(--green);
+  font-size: 38px;
+}
+.heroName{
+  font-size: 84px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+.heroDes{
+  font-size: 38px;
+}
+.downloadResume{
+	display: inline-block;
+	color:white;
+	border:1px solid var(--green);
+  
+  background-color: rgba(100, 255, 218, 0.2);
+	border-radius: 10px;
+	padding: 10px 25px;
+  font-size: 32px;
+  text-decoration: none;
+  width:fit-content;
+}
+.downloadResume:hover{
+  color: var(--green);
+  font-weight: bolder;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .heroSecContent{
+    min-height: 50vh;
+  }
+	.heroSec{
+    background-image:url('../assets/gradientMobile.svg');
+  }
+	.heroDes,.introText,.downloadResume{
+    font-size: 28px;
+  }
+  .heroName{
+    font-size: 48px;
+  }
+	.downloadResume{
+		width:auto;
+    padding: 5px;
+		text-align: center;
+	}
+}

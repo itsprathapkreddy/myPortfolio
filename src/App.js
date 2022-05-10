@@ -19,7 +19,7 @@ function App() {
 	}, []);
 	return (
 		<Container fluid className='appContainer'>
-			{loadTimer ? (
+			{false ? (
 				<Loader />
 			) : (
 				<div className='scrollContainer'>

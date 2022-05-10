@@ -7,46 +7,14 @@
 }
 .headerContainer{
 	background-color: var(--light-navy);
+	/* background-color: #6600FF; */
 	padding: 5px;
 	text-align: center;  
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
 	z-index: 100;
 	width:100%;
 }
-.heroSec{
-	/* background-color: #133E57; */
-	background-image:url('./assets/lapBgHero.svg');
-	height: 100%;
 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-	padding: 20px;
-	color: white;
-	min-height: 100vh;
-	display: flex;
-	justify-content:space-between;
-	flex-wrap: wrap;
-
-}
-.heroSecDes{
-	width:50%;
-	opacity:0.6
-}
-.downloadResume{
-	display: inline-block;
-	color:white;
-	border:1px solid var(--dark-navy);
-	background-color:var(--light-navy);
-	border-radius: 10px;
-	padding: 15px 25px;
-	margin-top: 20px;
-}
-.downloadResume:hover{
-	color:var(--green);
-	cursor: pointer;
-}
 .aboutSec{
 	background-color: #334159;
 	color:white;
@@ -137,16 +105,7 @@ abtList li{
 }
 
 @media only screen and (max-width: 600px) {
-	.heroSec{
-		/* background-color: #133E57; */
-		background-image:url('./assets/herobgMobile.svg');}
-	.heroSecDes{
-		width:90%
-	}
-	.downloadResume{
-		width: 100%;
-		text-align: center;
-	}
+	
 	.aboutEmail{
 		overflow: scroll;
 	}
