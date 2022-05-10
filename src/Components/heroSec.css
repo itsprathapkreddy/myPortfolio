@@ -14,7 +14,7 @@
   min-height:50vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content:space-evenly;
 }
 .introText{
   color:var(--green);
@@ -32,10 +32,9 @@
 	display: inline-block;
 	color:white;
 	border:1px solid var(--green);
-  
   background-color: rgba(100, 255, 218, 0.2);
 	border-radius: 10px;
-	padding: 10px 25px;
+	padding: 3px 25px;
   font-size: 32px;
   text-decoration: none;
   width:fit-content;
@@ -48,7 +47,7 @@
 
 @media only screen and (max-width: 600px) {
   .heroSecContent{
-    min-height: 50vh;
+    min-height: 60vh;
   }
 	.heroSec{
     background-image:url('../assets/gradientMobile.svg');
@@ -60,7 +59,7 @@
     font-size: 48px;
   }
 	.downloadResume{
-		width:auto;
+		width: 100%;
     padding: 5px;
 		text-align: center;
 	}

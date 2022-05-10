@@ -14,12 +14,14 @@ const HeroSec = () => {
 								I build interactive websites that run across platforms & devices
 							</div>
 
-							<a
-								href='https://drive.google.com/uc?export=download&id=1DIrKHX621neidNSzhdfSbAu0LIu1UThr'
-								target='_blank'
-								className='downloadResume'>
-								Download RESUME
-							</a>
+							<div>
+								<a
+									href='https://drive.google.com/uc?export=download&id=1DIrKHX621neidNSzhdfSbAu0LIu1UThr'
+									target='_blank'
+									className='downloadResume'>
+									Download RESUME
+								</a>
+							</div>
 						</div>
 					</Col>
 				</Row>
