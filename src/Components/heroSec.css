@@ -53,10 +53,10 @@
     /* background-image:url('../assets/gradientMobile.svg'); */
   }
 	.heroDes,.introText,.downloadResume{
-    font-size: 28px;
+    font-size: 26px;
   }
   .heroName{
-    font-size: 48px;
+    font-size: 38px;
   }
 	.downloadResume{
 		width: 100%;
