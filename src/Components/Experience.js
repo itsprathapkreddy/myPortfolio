@@ -1,10 +1,17 @@
 import { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Waypoint } from 'react-waypoint';
+
 import '../App.css';
 const Experience = () => {
 	const [company, setCompany] = useState('TCS');
 	return (
 		<Container className='expContainer scrollItem'>
+			<Waypoint
+				onEnter={() => console.log('Entered')}
+				onLeave={() => console.log('Exited')}
+			/>
+
 			<Row>
 				<div className='separator'>
 					<h2>Work Places</h2>
@@ -24,7 +31,6 @@ const Experience = () => {
 					MBP Solutions
 				</Col>
 			</Row>
-
 			<Row className='expData' style={{ paddingTop: '0px' }}>
 				<div className={company !== 'TCS' ? 'hidden' : 'compDesContainer'}>
 					<h4>

@@ -1,5 +1,5 @@
 .heroSec{
-	background-image:url('../assets/gradient.svg');
+	/* background-image:url('../assets/gradient.svg'); */
 	height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -50,7 +50,7 @@
     min-height: 60vh;
   }
 	.heroSec{
-    background-image:url('../assets/gradientMobile.svg');
+    /* background-image:url('../assets/gradientMobile.svg'); */
   }
 	.heroDes,.introText,.downloadResume{
     font-size: 28px;
