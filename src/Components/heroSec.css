@@ -29,6 +29,7 @@
   font-size: 38px;
 }
 .downloadResume{
+  margin-top: 20px;
 	display: inline-block;
 	color:white;
 	border:1px solid var(--green);
