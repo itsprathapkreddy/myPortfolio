@@ -9,7 +9,7 @@ const Contact = () => {
                 </div>
                 <div style={{ padding: "30px" }}>
                     <h4>Leave an email, I will get back to you at the earliest.</h4>
-                    <h2 className="aboutEmail">*****</h2>
+                    <h2 className="aboutEmail">kprathapreddy1997@gmail.com</h2>
                 </div>
             </Container>
         </Container>
