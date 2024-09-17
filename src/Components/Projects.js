@@ -67,7 +67,7 @@ const Projects = () => {
                             </Col>
                             <Col xs={6}>
                                 <Button variant="success" className="projBtn">
-                                    <a href="https://itsprathapkreddy.github.io/typingtest/" target="_blank" style={{ color: "inherit", textDecoration: "none" }}>
+                                    <a href="https://typingtestpro.vercel.app/" target="_blank" style={{ color: "inherit", textDecoration: "none" }}>
                                         <HiExternalLink style={{ fontSize: "24px" }} />
                                         <span>&nbsp;&nbsp;&nbsp;Live</span>
                                     </a>
