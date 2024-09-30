@@ -1,5 +1,6 @@
-import '../App.css';
-import { Container, Row, Col } from 'react-bootstrap';
+import '../../App.css';
+import { Container } from 'react-bootstrap';
+
 const Footer = () => {
     return (
         <Container fluid className="footerCont">

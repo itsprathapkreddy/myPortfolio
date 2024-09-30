@@ -1,14 +1,9 @@
 import './loader.css';
+
 const Loader = () => {
     return (
         <div className="loaderContainer">
-            <svg
-                width="140"
-                height="140"
-                viewBox="0 0 200 200"
-                fill="none"
-                className="entireLogo"
-            >
+            <svg width="140" height="140" viewBox="0 0 200 200" fill="none" className="entireLogo">
                 <path
                     className="borderPath"
                     d="M97.5 26.4434C99.047 25.5502 100.953 25.5502 102.5 26.4434L162.452 61.0566C163.999 61.9498 164.952 63.6004 164.952 65.3868V134.613C164.952 136.4 163.999 138.05 162.452 138.943L102.5 173.557C100.953 174.45 99.047 174.45 97.5 173.557L37.5481 138.943C36.0011 138.05 35.0481 136.4 35.0481 134.613V65.3868C35.0481 63.6004 36.0011 61.9498 37.5481 61.0566L97.5 26.4434Z"
