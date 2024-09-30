@@ -30,7 +30,7 @@ jobs:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}  # Set this in your GitHub secrets
           vercel-args: '--prod'  # Deploy to production
           working-directory: ./  # Change if your project is in a subdirectory
-          project-name: myPortfolio  # Replace with your Vercel project name
+          project-name: my-portfolio  # Replace with your Vercel project name
 
       - name: Notify deployment success
         run: echo "Deployment to Vercel completed successfully!"
