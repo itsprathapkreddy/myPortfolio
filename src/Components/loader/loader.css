@@ -1,0 +1,45 @@
+.loaderContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.borderPath {
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: dash 3s ease-in-out;
+}
+
+@keyframes dash {
+    from {
+        stroke-dashoffset: 500;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+.letterP {
+    opacity: 0;
+    animation: fade-in 2s linear 1s;
+}
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Scale animation for entire logo */
+@keyframes leaves {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(2);
+    }
+}
