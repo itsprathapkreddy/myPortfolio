@@ -1,0 +1,38 @@
+.expContainer {
+    color: white;
+    padding: 30px;
+}
+
+.experienceItemContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.experienceItem {
+    color: white;
+    background-color: darkslategray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.topSection {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.companyLogo {
+    display: flex; /* Optional: To center content */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+}
+
+@media only screen and (max-width: 600px) {
+    .experienceItemContainer {
+        grid-template-columns:  1fr;
+    }
+}

@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
 import Header from './Components/headerAndFooter/Header';
 import HeroSec from './Components/heroSection/HeroSec';
-import About from './Components/about/About';
 import Contact from './Components/contact/Contact';
 import Projects from './Components/projects/Projects';
 import Footer from './Components/headerAndFooter/Footer';
@@ -11,6 +10,7 @@ import Loader from './Components/loader/Loader';
 import { useEffect, useState } from 'react';
 import Helmet from 'react-helmet';
 import Experience from './Components/experience/Experience';
+import About from './Components/about/About';
 
 function App() {
     const [loadTimer, setLoadTimer] = useState(true);

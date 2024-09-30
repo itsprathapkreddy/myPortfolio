@@ -1,10 +1,12 @@
 * {
     box-sizing: border-box;
 }
+
 .appContainer {
     background-color: var(--light-navy);
     padding: 0px !important;
 }
+
 .headerContainer {
     background-color: var(--light-navy);
     /* background-color: #6600FF; */
@@ -23,47 +25,17 @@
     font-size: 20px;
     text-align: justify;
 }
+
 .abtList {
     columns: 2;
     font-size: 18px;
 }
+
 abtList li {
     list-style-type: circle;
 }
-.expContainer {
-    color: white;
-    padding: 30px;
-}
-.expHeader {
-    text-align: center;
-    padding: 10px 0;
-    padding-left: 15%;
-    padding-right: 15%;
-    font-size: 18px;
-}
 
-.expData {
-    padding-left: 15%;
-    padding: 10px 0;
-    padding-right: 15%;
-    padding-left: 15%;
-    font-size: 18px;
-    text-align: justify;
-}
-.expShow,
-.expHide {
-    padding: 10px 0;
-    cursor: pointer;
-    background-color: var(--navy);
-    font-size: 18px;
-}
-.expShow {
-    color: var(--green);
-    border-bottom: 2px solid var(--green);
-}
-.expHide {
-    opacity: 0.8;
-}
+
 .compDesContainer {
     padding-top: 10px;
     background: rgba(255, 255, 255, 0.05);
@@ -88,28 +60,35 @@ abtList li {
     text-align: center;
     background-color: var(--navy);
 }
+
 .projCont {
     color: white;
 }
+
 .projContHead {
     color: white;
     text-align: center;
 }
+
 .indProj {
     margin: 20px 5px !important;
     background-color: var(--navy);
     border-radius: 10px;
 }
+
 .ProjectImage {
     width: 100%;
 }
+
 .ProjectImage:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
 }
+
 .indProjDes {
     background-color: var(--navy);
     text-align: justify;
 }
+
 .projBtn {
     width: 100%;
     padding: 30px 0px;
@@ -142,23 +121,29 @@ abtList li {
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
 }
+
 .scrollItem {
     scroll-snap-align: start;
 }
+
 .scrollContainer::-webkit-scrollbar {
     display: none;
 }
+
 @media only screen and (max-width: 600px) {
     .aboutEmail {
         overflow: scroll;
     }
+
     .expHeader,
     .expData {
         padding: 10px 5px;
     }
+
     .medQuRevCol {
         flex-direction: column-reverse;
     }
+
     .scrollContainer {
         scroll-snap-type: y approximate;
     }

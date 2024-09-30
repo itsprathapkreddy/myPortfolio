@@ -3,6 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 import { Waypoint } from 'react-waypoint';
 import { Zoom } from 'react-reveal';
 import '../../App.css';
+import './experience.css';
 import { experienceData } from './experienceData';
 
 export default function Experience() {
@@ -19,71 +20,35 @@ export default function Experience() {
                 </Zoom>
             </Row>
 
-            {experienceData.map((item) => (
-                <div>
-                    <div>{item.companyName}</div>
-                    <div>{item.briefSummary}</div>
-                    <ul>
-                        {item.details.map((detail) => (
-                            <li>{detail}</li>
-                        ))}
-                    </ul>
-                </div>
-            ))}
+            <div className={'experienceItemContainer'}>
+                {experienceData.map((item) => (
+                    <div className="experienceItem" key={item.companyName}>
+                        <div className={'topSection'}>
+                            <div>
+                                <div>{item.companyName}</div>
+                                <div>{item.time}</div>
+                            </div>
+                            <div className={'companyLogo'}>
+                                <img
+                                    src={item.companyLogoUrl}
+                                    alt="My Icon"
+                                    width="120"
+                                    height="120"
+                                    style={{ backgroundColor: 'white', borderRadius: '50%' }}
+                                />
+                            </div>
+                        </div>
 
-            {/*<Slide right>*/}
-            {/*    <Row className="expHeader" style={{ paddingBottom: '0px' }}>*/}
-            {/*        <Col className={company === 'TCS' ? 'expShow' : 'expHide'} xs={6} onClick={() => setCompany('TCS')}>*/}
-            {/*            TCS*/}
-            {/*        </Col>*/}
-            {/*        <Col className={company === 'MBP' ? 'expShow' : 'expHide'} xs={6} onClick={() => setCompany('MBP')}>*/}
-            {/*            MBP Solutions*/}
-            {/*        </Col>*/}
-            {/*    </Row>*/}
-            {/*</Slide>*/}
-            {/*<Slide left>*/}
-            {/*    <Row className="expData" style={{ paddingTop: '0px' }}>*/}
-            {/*        <div className={company !== 'TCS' ? 'hidden' : 'compDesContainer'}>*/}
-            {/*            <h4>*/}
-            {/*                Front End Developer*/}
-            {/*                <span style={{ color: 'var(--green)' }}>@Tata Consultancy Services</span>*/}
-            {/*            </h4>*/}
-            {/*            <div>*/}
-            {/*                <ul>*/}
-            {/*                    <li style={{ display: 'list-item' }}>*/}
-            {/*                        Analyzed the current system and came up with required design changes to suit the employee requirements.*/}
-            {/*                    </li>*/}
-
-            {/*                    <li style={{ display: 'list-item' }}>*/}
-            {/*                        Designed and developed very complex and large web pages and modals using ReactJS, JavaScript, HTML5, and*/}
-            {/*                        CSS3.*/}
-            {/*                    </li>*/}
-
-            {/*                    <li style={{ display: 'list-item' }}>*/}
-            {/*                        Participated in code review sessions and system design discussions. Interacted with Product Managers to*/}
-            {/*                        fine-tune user stories and with the testing team to approve functional specifications and test cases.*/}
-            {/*                    </li>*/}
-            {/*                </ul>*/}
-            {/*            </div>*/}
-            {/*        </div>*/}
-            {/*        <div className={company !== 'MBP' ? 'hidden' : 'compDesContainer'}>*/}
-            {/*            <h4>*/}
-            {/*                WordPress administrator*/}
-            {/*                <span style={{ color: 'var(--green)' }}> @MBP Solutions</span>*/}
-            {/*            </h4>*/}
-            {/*            <ul>*/}
-            {/*                <li>Part of UI Design for the entire website.</li>*/}
-
-            {/*                <li>Created multiple designs using the Elementor page builder, by adding custom HTML, CSS, and JS.</li>*/}
-
-            {/*                <li>*/}
-            {/*                    Created company’s presence on Google My Business. Optimized the company’s website for Search Engines using*/}
-            {/*                    google analytics.*/}
-            {/*                </li>*/}
-            {/*            </ul>*/}
-            {/*        </div>*/}
-            {/*    </Row>*/}
-            {/*</Slide>*/}
+                        <hr />
+                        <div>Role: {item.briefSummary}</div>
+                        <ul>
+                            {item.details.map((detail) => (
+                                <li>{detail}</li>
+                            ))}
+                        </ul>
+                    </div>
+                ))}
+            </div>
         </Container>
     );
 }
