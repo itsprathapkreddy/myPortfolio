@@ -1,12 +1,12 @@
 .expContainer {
     color: white;
-    padding: 0px;
+    padding: 20px 0;
 }
 
 .experienceItemContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+    padding: 20px 0;
 }
 
 .experienceItem {

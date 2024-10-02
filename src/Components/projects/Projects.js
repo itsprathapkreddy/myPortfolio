@@ -13,7 +13,7 @@ const Projects = () => {
                     <h2 className="projContHead">Projects</h2>
                 </div>
             </Zoom>
-
+            
             {projectsData.map((item, index) => (
                 <Container>
                     {item.show && (

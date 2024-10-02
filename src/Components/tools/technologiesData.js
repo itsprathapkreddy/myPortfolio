@@ -33,119 +33,119 @@ export const technologiesData = {
     frontEnd: [
         {
             name: 'React',
-            icon: <SiReact color={'#007ACC'} size={'25px'} />
+            icon: <SiReact color={'#00d1f7'} size={'25px'} />
         },
         {
             name: 'Angular',
-            icon: <SiAngular color={'#007ACC'} size={'25px'} />
+            icon: <SiAngular color={'#d61a15'} size={'25px'} />
         },
         {
             name: 'Next Js',
-            icon: <SiNextdotjs color={'#fff'} size={'25px'} />
+            icon: <SiNextdotjs color={'#000'} size={'25px'} />
         },
         {
             name: 'TypeScript',
-            icon: <SiTypescript color={'#007ACC'} size={'25px'} />
+            icon: <SiTypescript color={'#2f74c0'} size={'25px'} />
         },
         {
             name: 'JavaScript',
-            icon: <SiJavascript color={'#61dafb'} size={'25px'} />
+            icon: <SiJavascript color={'#e8d44d'} size={'25px'} />
         },
         {
             name: 'JQuery',
-            icon: <SiJquery color={'#007ACC'} size={'25px'} />
+            icon: <SiJquery color={'#162a42'} size={'25px'} />
         },
         {
             name: 'Tailwind CSS',
-            icon: <SiTailwindcss color={'#007ACC'} size={'25px'} />
+            icon: <SiTailwindcss color={'#6e88f4'} size={'25px'} />
         },
         {
             name: 'Bootstrap',
-            icon: <SiBootstrap color={'#007ACC'} size={'25px'} />
+            icon: <SiBootstrap color={'##7c18f8'} size={'25px'} />
         },
         {
             name: 'Vite',
-            icon: <SiVite color={'#007ACC'} size={'25px'} />
+            icon: <SiVite color={'#ffd02e'} size={'25px'} />
         },
         {
             name: 'Vitest',
-            icon: <SiVitest color={'#007ACC'} size={'25px'} />
+            icon: <SiVitest color={'#769e22'} size={'25px'} />
         },
         {
             name: 'WebPack',
-            icon: <SiWebpack color={'#007ACC'} size={'25px'} />
+            icon: <SiWebpack color={'#387abf'} size={'25px'} />
         },
         {
             name: 'HTML5',
-            icon: <SiHtml5 color={'#007ACC'} size={'25px'} />
+            icon: <SiHtml5 color={'#e4552d'} size={'25px'} />
         },
         {
             name: 'CSS3',
-            icon: <SiCss3 color={'#007ACC'} size={'25px'} />
+            icon: <SiCss3 color={'#2d53e5'} size={'25px'} />
         }
     ],
     backEnd: [
         {
             name: 'Java',
-            icon: <DiJava color={'#007ACC'} size={'25px'} />
+            icon: <DiJava color={'#ed272c'} size={'25px'} />
         },
         {
             name: 'NodeJs',
-            icon: <SiNodedotjs color={'#007ACC'} size={'25px'} />
+            icon: <SiNodedotjs color={'#7ab168'} size={'25px'} />
         },
         {
             name: 'PHP',
-            icon: <SiPhp color={'#007ACC'} size={'25px'} />
+            icon: <SiPhp color={'#7b7fb5'} size={'25px'} />
         },
         {
             name: 'My SQL',
-            icon: <SiMysql color={'#007ACC'} size={'25px'} />
+            icon: <SiMysql color={'#f29418'} size={'25px'} />
         },
         {
             name: 'PostgreSQL',
-            icon: <SiPostgresql color={'#007ACC'} size={'25px'} />
+            icon: <SiPostgresql color={'#396c94'} size={'25px'} />
         },
         {
             name: 'Datadog',
-            icon: <SiDatadog color={'#007ACC'} size={'25px'} />
+            icon: <SiDatadog color={'#6832ab'} size={'25px'} />
         }
     ],
     tools: [
         {
             name: 'Web Storm',
-            icon: <SiWebstorm color={'#007ACC'} size={'25px'} />
+            icon: <SiWebstorm color={'#000'} size={'25px'} />
         },
         {
             name: 'IntelliJ',
-            icon: <SiIntellijidea color={'#007ACC'} size={'25px'} />
+            icon: <SiIntellijidea color={'#000'} size={'25px'} />
         },
         {
             name: 'VS Code',
-            icon: <SiVisualstudiocode color={'#007ACC'} size={'25px'} />
+            icon: <SiVisualstudiocode color={'#2bb0f3'} size={'25px'} />
         },
         {
             name: 'Data Grip',
-            icon: <SiDatagrip color={'#007ACC'} size={'25px'} />
+            icon: <SiDatagrip color={'#000'} size={'25px'} />
         },
         {
             name: 'Github',
-            icon: <SiGithub color={'#007ACC'} size={'25px'} />
+            icon: <SiGithub color={'#882e95'} size={'25px'} />
         },
         {
             name: 'Gitlab',
-            icon: <SiGitlab color={'#007ACC'} size={'25px'} />
+            icon: <SiGitlab color={'#e34930'} size={'25px'} />
         },
         {
             name: 'Bit Bucket',
-            icon: <SiBitbucket color={'#007ACC'} size={'25px'} />
+            icon: <SiBitbucket color={'#2d88ff'} size={'25px'} />
         },
         {
             name: 'Wordpress',
-            icon: <SiWordpress color={'#007ACC'} size={'25px'} />
+            icon: <SiWordpress color={'#28799e'} size={'25px'} />
         },
         {
             name: 'Drupal',
-            icon: <SiDrupal color={'#007ACC'} size={'25px'} />
+            icon: <SiDrupal color={'#0877bc'} size={'25px'} />
         }
     ]
 };

@@ -17,7 +17,7 @@ export default function Technologies() {
               : gridStyle;
 
     const technologyCardContainer = 'flex items-center gap-3 rounded-md p-2 bg-secondary/5 dark:bg-[#ffffff0a] dark:backdrop-blur-2xl';
-    const technologyCardImg = 'p-2 items-center justify-center rounded-lg bg-[#007acc26]';
+    const technologyCardImg = 'p-2 items-center justify-center rounded-lg bg-[#FAF9F6]';
     const technologyCardText = 'text-smaller md:text-small';
 
     const renderSection = (name, array) => {
