@@ -15,7 +15,7 @@ const Projects = () => {
             </Zoom>
 
             {projectsData.map((item, index) => (
-                <div>
+                <Container>
                     {item.show && (
                         <Slide right={index % 2 === 0} left={index % 2 !== 0}>
                             <Row className="indProj">
@@ -25,16 +25,21 @@ const Projects = () => {
                                 <Col sm={6} className="indProjDes">
                                     <h2 style={{ padding: '10px', marginBottom: '20px' }}>{item.projectName}</h2>
                                     <h5>{item.briefSummary}</h5>
-                                    <Row style={{ padding: '10px 0px' }}>
+                                    <Row style={{ padding: '20px 0px' }}>
                                         <Col xs={6}>
                                             <Button variant="primary" className="projBtn">
                                                 <a
                                                     href={item.githubLink}
                                                     target="_blank"
-                                                    style={{ color: 'inherit', textDecoration: 'none' }}
+                                                    style={{
+                                                        color: 'inherit',
+                                                        textDecoration: 'none',
+                                                        display: 'grid',
+                                                        gridTemplateColumns: '0.5fr 1fr'
+                                                    }}
                                                 >
                                                     <SiGithub style={{ fontSize: '24px' }} />
-                                                    <span>&nbsp;&nbsp;&nbsp;Github</span>
+                                                    <div style={{ textAlign: 'left' }}>Github</div>
                                                 </a>
                                             </Button>
                                         </Col>
@@ -43,10 +48,15 @@ const Projects = () => {
                                                 <a
                                                     href={item.liveLink}
                                                     target="_blank"
-                                                    style={{ color: 'inherit', textDecoration: 'none' }}
+                                                    style={{
+                                                        color: 'inherit',
+                                                        textDecoration: 'none',
+                                                        display: 'grid',
+                                                        gridTemplateColumns: '0.5fr 1fr'
+                                                    }}
                                                 >
                                                     <HiExternalLink style={{ fontSize: '24px' }} />
-                                                    <span>&nbsp;&nbsp;&nbsp;Live</span>
+                                                    <div style={{ textAlign: 'left' }}>Live</div>
                                                 </a>
                                             </Button>
                                         </Col>
@@ -55,7 +65,7 @@ const Projects = () => {
                             </Row>
                         </Slide>
                     )}
-                </div>
+                </Container>
             ))}
         </Container>
     );
