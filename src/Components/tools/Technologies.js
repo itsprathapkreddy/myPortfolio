@@ -6,8 +6,7 @@ export default function Technologies() {
         display: 'grid',
         gridTemplateColumns: '1fr 1fr 1fr 1fr',
         color: 'white',
-        gridGap: '10px',
-        margin: '10px'
+        gridGap: '10px'
     };
 
     const responsiveGridStyle =

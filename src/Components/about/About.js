@@ -24,25 +24,14 @@ const About = () => {
                                 together a custom button taught me a lot about HTML & CSS!
                             </div>
                         </Slide>
-                        <br />
-                        <Slide right>
-                            <div>
-                                Fast-forward to today, and I’ve had the privilege of working at a start-up, a huge corporation. My main
-                                focus these days is building accessible, inclusive products and digital experiences.{' '}
-                            </div>
-                        </Slide>
+
                         <br />
                     </Col>
                     <Col sm={6}>
                         <Slide right>
-                            Some of the technologies that I have been working recently are
-                            <div className="abtList">
-                                <li>React JS</li>
-                                <li>JavaScript ES6</li>
-                                <li>WordPress</li>
-                                <li>React Native</li>
-                                <li>Node JS</li>
-                                <li>Java</li>
+                            <div>
+                                Fast-forward to today, and I’ve had the privilege of working at a start-up, a huge corporation. My main
+                                focus these days is building accessible, inclusive products and digital experiences.{' '}
                             </div>
                         </Slide>
                     </Col>

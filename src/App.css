@@ -89,7 +89,6 @@ abtList li {
 
 .projBtn {
     width: 100%;
-    padding: 30px 0px;
 }
 
 /* For HR line to Sec header */
@@ -116,6 +115,7 @@ abtList li {
 
 .scrollContainer {
     height: 100vh;
+    overflow-x: hidden;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
 }
