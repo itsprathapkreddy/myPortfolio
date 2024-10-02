@@ -11,6 +11,7 @@ import { useEffect, useState } from 'react';
 import Helmet from 'react-helmet';
 import Experience from './Components/experience/Experience';
 import About from './Components/about/About';
+import Technologies from './Components/tools/Technologies';
 
 function App() {
     const [loadTimer, setLoadTimer] = useState(true);
@@ -37,6 +38,7 @@ function App() {
                     <Header />
                     <HeroSec />
                     <About />
+                    <Technologies />
                     <Experience />
                     <Projects />
                     <Contact />
