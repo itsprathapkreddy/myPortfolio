@@ -1,6 +1,7 @@
 import './contact.css';
 import { Button, Container } from 'react-bootstrap';
 import { useState } from 'react';
+import sendEmailToEmailJs from './contactUtils';
 
 const Contact = () => {
     const [message, setMessage] = useState('');
