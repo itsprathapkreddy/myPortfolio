@@ -2,9 +2,9 @@ import axios from 'axios';
 
 const emailJsUrl = 'https://api.emailjs.com/api/v1.0/email/send';
 
-const serviceId = process.env.EMAIL_JS_SERVICE_ID;
-const templateId = process.env.EMAIL_JS_TEMPLATE_ID;
-const userId = process.env.EMAIL_JS_USER_ID;
+const serviceId = process.env.REACT_APP_EMAIL_JS_SERVICE_ID;
+const templateId = process.env.REACT_APP_EMAIL_JS_TEMPLATE_ID;
+const userId = process.env.REACT_APP_EMAIL_JS_USER_ID;
 
 export default async function sendEmailToEmailJs(templateParams) {
     const template_params = {
