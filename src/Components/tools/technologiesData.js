@@ -61,7 +61,7 @@ export const technologiesData = {
         },
         {
             name: 'Bootstrap',
-            icon: <SiBootstrap color={'##7c18f8'} size={'25px'} />
+            icon: <SiBootstrap color={'#7910f2'} size={'25px'} />
         },
         {
             name: 'Vite',
