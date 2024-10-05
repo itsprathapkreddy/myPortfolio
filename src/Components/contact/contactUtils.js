@@ -23,13 +23,12 @@ export default async function sendEmailToEmailJs(templateParams) {
     };
 
     try {
-        const emailResponse = await axios({
+        return await axios({
             method: 'post',
             url: emailJsUrl,
             contentType: 'application/json',
             data
         });
-        console.log({ emailResponse });
     } catch (error) {
         console.error(error);
     }
